@@ -2,24 +2,24 @@
 <testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-12T22:01:27 EET" name="Default suite" finished-at="2024-06-12T22:01:32 EET" duration-ms="5179">
+  <suite started-at="2024-06-22T20:04:25 EET" name="Default suite" finished-at="2024-06-22T20:04:30 EET" duration-ms="4590">
     <groups>
     </groups>
-    <test started-at="2024-06-12T22:01:27 EET" name="Default test" finished-at="2024-06-12T22:01:32 EET" duration-ms="5179">
+    <test started-at="2024-06-22T20:04:25 EET" name="Default test" finished-at="2024-06-22T20:04:30 EET" duration-ms="4590">
       <class name="SwagLabsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SwagLabsTest@30b19518]" started-at="2024-06-12T22:01:27 EET" name="setUp" finished-at="2024-06-12T22:01:27 EET" duration-ms="537" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SwagLabsTest@6d9f7a80]" started-at="2024-06-22T20:04:25 EET" name="setUp" finished-at="2024-06-22T20:04:26 EET" duration-ms="970" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logIn()[pri:1, instance:SwagLabsTest@30b19518]" started-at="2024-06-12T22:01:28 EET" name="logIn" finished-at="2024-06-12T22:01:30 EET" duration-ms="2382" status="PASS">
+        <test-method signature="logIn()[pri:1, instance:SwagLabsTest@6d9f7a80]" started-at="2024-06-22T20:04:26 EET" name="logIn" finished-at="2024-06-22T20:04:27 EET" duration-ms="1019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method signature="verifyTitle()[pri:2, instance:SwagLabsTest@30b19518]" started-at="2024-06-12T22:01:30 EET" name="verifyTitle" finished-at="2024-06-12T22:01:30 EET" duration-ms="263" status="PASS">
+        <test-method signature="verifyTitle()[pri:2, instance:SwagLabsTest@6d9f7a80]" started-at="2024-06-22T20:04:27 EET" name="verifyTitle" finished-at="2024-06-22T20:04:27 EET" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method signature="highToLow()[pri:3, instance:SwagLabsTest@30b19518]" started-at="2024-06-12T22:01:30 EET" name="highToLow" finished-at="2024-06-12T22:01:32 EET" duration-ms="1918" status="PASS">
+        <test-method signature="highToLow()[pri:3, instance:SwagLabsTest@6d9f7a80]" started-at="2024-06-22T20:04:27 EET" name="highToLow" finished-at="2024-06-22T20:04:30 EET" duration-ms="2382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- highToLow -->

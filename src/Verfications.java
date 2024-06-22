@@ -100,5 +100,23 @@ public void addTheItemsWithoutLabsWord() {
 			addItems.get(i).click();
 		}
 	}
+
+}
+public void addItemMoreThan15dollar() {
+	List<WebElement> addButton=driver.findElements(By.className("btn"));
+	List<WebElement>price=driver.findElements(By.className("inventory_item_price"));
+	for(int i =0;i<=price.size()-1;i++) {
+       Double itemPrice=Double.parseDouble(price.get(i).getText().replace("$", "")); 
+     
+		System.out.println(itemPrice);
+
+		if(	itemPrice>15) {
+			addButton.get(i).click();
+		}
+		else {
+           continue;  
+		}
+
+	}
 }
 }

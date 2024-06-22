@@ -42,7 +42,8 @@ verify.verifyPrices(0,5);
 //verify.addAllItemsExceptFirstTwoItems();
 //verify.findLabsWordAndAddThem();
 //verify.findLabsWordAndAddThem();
-verify.addTheItemsWithoutLabsWord();
+//verify.addTheItemsWithoutLabsWord();
+verify.addItemMoreThan15dollar();
 }
 @Test(priority=4,enabled=false)
 public void lowToHigh() throws InterruptedException {
